@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+      
+        body {
+            background: url('https://i.imgur.com/EXelmvX.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            height: 100vh;
+            width: 100vw;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+        }
+
+        #logo {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+
+        #avatar {
+            width: 290px;
+            height: 350px;
+            border: 100%;
+            margin-bottom: 20px;
+        }
+
+        .left-column {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+            padding-right: 30px;
+        }
+
+        .right-column {
+            width: 470px;
+            margin-left: 30px;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            width: 900px;
+            height: 600px;
+            padding: 50px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h1,
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        a {
+            color: white;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        main {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contacts {
+            
+            border: 2px dashed rgb(189, 195, 199);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+           
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        .contacts a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .contacts img {
+            width: 20px; 
+            height: 20px; 
+            margin-right: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Content for left column goes here --> 
+                <img id="logo" src="https://lh3.googleusercontent.com/pw/ADCreHdaOMYiUdjIlNAkd_b5__H927yPc0fySkMRdRf1qaRgU26I1UW89DW_9LsfRbU7yvUEOfkbvk1sYWqNZIgNFAf40q51O1fZeMm91sAFycV-reJJcLw=w2400" />
+                <img id="avatar" src="https://i.imgur.com/K9sRTO3.png" alt="" />
+                <div class="highlights">
+                    <h1>ĐINH LÊ BÌNH AN</h1>
+                    <p>DoB: 04/05/2005</p>
+                    <p>KHMT2023.1 - UIT</p>
+                    <p>Ho Chi Minh City</p>
+                </div>
+            </div> <!-- Right Column -->
+            <div class="right-column">
+                <!-- Content for right column goes here -->
+                <div class="section">
+                    <h2>About Me</h2>
+                    <p>Progressive, responsible, enthusiastic and eager to learn to enhance myself.</p>
+                </div>
+                <div class="section">
+                    <h2>My Hobbies</h2>
+                    <p>+ Listening to music</p>
+                    <p>+ Playing soccer</p>
+                    <p>+ Reading books</p>
+                </div>
+                <div class="section">
+                    <h2>My Future Goals</h2>
+                    <p> BILLIONAIRE </p>
+                </div>
+                 <div class="contacts">
+                    <h2>Contacts:</h2>
+                    <a href="mailto:dinhlebinhan2005@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/6244/6244710.png" alt="">Gmail</a>
+                    <a href="https://www.facebook.com/profile.php?id=100015039228882"><img src="https://i.imgur.com/T4G0CGb.png" alt="">Facebook</a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
